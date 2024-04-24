@@ -5,7 +5,7 @@ on:
       - master
       - dev
 env: # any environmnet varaible place here is available for any job in the workflow
- MONGODB_DB_NAME: gha-demo
+ MONGODB_DB_NAME: Cluster0
 jobs:
   test:
     env:
